@@ -13632,7 +13632,7 @@
 			)
 		)
 	)
-	(gr_text "ISEL1"
+	(gr_text "ISEL"
 		(at 102.25 86.5 90)
 		(layer "F.SilkS")
 		(uuid "85d3aa31-a8b4-4400-9b93-470c5c4773dc")
