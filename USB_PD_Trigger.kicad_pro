@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -128,7 +128,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.152,
+        "min_clearance": 0.13,
         "min_connection": 0.152,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -505,28 +505,38 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.13,
+        "name": "FinePitch_IC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.16,
         "line_style": 0,
         "name": "Power",
         "pcb_color": "rgb(255, 21, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 21, 0)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.25,
         "name": "Signal",
         "pcb_color": "rgb(59, 255, 63)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(59, 255, 63)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -571,7 +581,7 @@
         "pattern": "/CC2"
       },
       {
-        "netclass": "Power",
+        "netclass": "FinePitch_IC",
         "pattern": "/VBUS"
       },
       {
@@ -581,6 +591,54 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(U1-LED)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(U1-FLIP)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(U1-VCC)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Net-(U1-PWR_EN)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(U1-VOUT)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(J2-Pin_10)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(J1-Pin_10)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(U1-CC2)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(U1-CC1)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(U1-DP)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "/Net-(U1-DN)"
+      },
+      {
+        "netclass": "FinePitch_IC",
+        "pattern": "Net-(U1-V5V)"
       }
     ]
   },
