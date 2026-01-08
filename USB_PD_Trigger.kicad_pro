@@ -684,7 +684,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "../../../../../Downloads/gerbers_pdf/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
