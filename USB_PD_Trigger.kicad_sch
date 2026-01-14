@@ -1340,6 +1340,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DT1452-02SO-7:DT1452-02SO-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DT1452-02SO-7"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT96P240X110-3N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DT1452-02SO.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diodes Inc DT1452-02SO-7, Quint-Element Uni-Directional TVS Diode Array, 0.3W, 3-Pin SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-DT1452-02SO-7"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DT1452-02SO-7?qs=M%2FOdCRO8QQ1ppg038%2FKGgQ%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DT1452-02SO-7"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DT1452-02SO-7_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "I/O_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "I/O_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1786,317 +1956,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESD321DPYR:ESD321DPYR"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "ESDS312DBVR:ESDS312DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -5.0835 2.4159 0)
+				(at 24.13 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Value" "ESD321DPYR"
-				(at -5.0854 -4.9611 0)
+			(property "Value" "ESDS312DBVR"
+				(at 24.13 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "ESD321DPYR:TVS_ESD321DPYR"
-				(at 0 0 0)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 24.13 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/esds312"
+				(at 24.13 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" "296-51108-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESD321DPYR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "0.9pF 3.6V ±30kV ESD protection diode with 6.8V 16A TLP clamping for USB 2.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "X1SON-2 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ESD321DPYR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "ESD321DPYR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ESD321DPYR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESD441DPLR:ESD441DPLR"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 10.16 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ESD441DPLR"
-				(at 10.16 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ESD441DPLR"
-				(at 10.16 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf?ts=1730589139389&ref_url=https%253A%252F%252Fapp.ultralibrarian.com%252F"
-				(at 10.16 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Suppressors / TVS Diodes 1-pF, 5.5-V, 30-KV ESD protection device in 0201 package 2-X2SON -40 to 125"
+			(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2105,133 +2007,72 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.32"
-				(at 10.16 -393.65 0)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-ESD441DPLR"
-				(at 10.16 -493.65 0)
+			(property "Mouser Part Number" "595-ESDS312DBVR"
+				(at 24.13 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
-				(at 10.16 -593.65 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS312DBVR?qs=byeeYqUIh0PGNqB7QuJpTA%3D%3D"
+				(at 24.13 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Texas Instruments"
-				(at 10.16 -693.65 0)
+				(at 24.13 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ESD441DPLR"
-				(at 10.16 -793.65 0)
+			(property "Manufacturer_Part_Number" "ESDS312DBVR"
+				(at 24.13 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "ESD441DPLR_1_1"
-				(polyline
-					(pts
-						(xy 4.064 2.54) (xy 5.08 2.032)
-					)
+			(symbol "ESDS312DBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.032) (xy 5.08 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.032) (xy 6.096 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 10.16 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "K"
+					(name "NC_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2247,9 +2088,9 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 0 180)
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "A"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2257,6 +2098,60 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3394,10 +3289,10 @@
 		(uuid "116c0cca-977d-4d0c-a189-73ba72f34a53")
 	)
 	(junction
-		(at 44.45 107.95)
+		(at 31.75 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16eaa7a5-e44b-4de1-b188-17e1f0ff07b2")
+		(uuid "11848ae7-3c13-43fd-bdd8-891bd13be98e")
 	)
 	(junction
 		(at 170.18 22.86)
@@ -3424,6 +3319,12 @@
 		(uuid "1f1fc66a-9a58-4d77-86fb-82ee4994256a")
 	)
 	(junction
+		(at 29.21 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2038a6f0-b3cd-4072-9d5c-fadeac1265ea")
+	)
+	(junction
 		(at 54.61 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3446,12 +3347,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b14bd19-0bef-4242-a484-3a968ba272b1")
-	)
-	(junction
-		(at 27.94 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35a08ebc-ebc7-478b-97ca-da0ae0ab545a")
 	)
 	(junction
 		(at 140.97 49.53)
@@ -3544,12 +3439,6 @@
 		(uuid "704c5cab-88a7-42ec-a1b3-d51851563bd2")
 	)
 	(junction
-		(at 44.45 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "769750f2-0e2b-4f3e-af58-60ff6469f40c")
-	)
-	(junction
 		(at 243.84 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3572,12 +3461,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f19abc8-c50d-436e-9e46-cab0ae9e4a91")
-	)
-	(junction
-		(at 35.56 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fe46380-6d8d-410a-a37f-1cbc7dc3b61e")
 	)
 	(junction
 		(at 218.44 22.86)
@@ -3658,12 +3541,6 @@
 		(uuid "9a441b90-def2-4640-b8c6-b415f391e50a")
 	)
 	(junction
-		(at 86.36 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a53a279-462a-48a3-a1f6-7b1c548c8fa6")
-	)
-	(junction
 		(at 254 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3700,6 +3577,12 @@
 		(uuid "ad7ddb36-f143-49d4-a4d7-abc614bc8a3a")
 	)
 	(junction
+		(at 87.63 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1298b3d-6982-42b2-88ba-abfdae6ffbcb")
+	)
+	(junction
 		(at 57.15 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3710,12 +3593,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5a4ac3d-c623-46db-847c-433fc3fb37f3")
-	)
-	(junction
-		(at 25.4 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf8422b7-d382-4139-a3af-1d990c89b003")
 	)
 	(junction
 		(at 27.94 189.23)
@@ -3734,6 +3611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9c84d30-1bb9-4d3c-9f73-ebdd3e974216")
+	)
+	(junction
+		(at 44.45 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d14ccd71-63dd-4ce2-af0d-e7e6e0add459")
 	)
 	(junction
 		(at 86.36 66.04)
@@ -3784,7 +3667,7 @@
 		(uuid "efa47215-e33b-4bf9-8f74-ea751080c431")
 	)
 	(junction
-		(at 60.96 107.95)
+		(at 60.96 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f59bd0e2-76c2-4209-8f87-e16525198fa7")
@@ -3796,12 +3679,20 @@
 		(uuid "f92b255a-33ac-458a-a528-9d468688c850")
 	)
 	(no_connect
+		(at 63.5 119.38)
+		(uuid "08caca1c-5354-4f97-8723-eaebc7250b9d")
+	)
+	(no_connect
 		(at 44.45 73.66)
 		(uuid "14ede2d1-971b-4a51-80f1-a4365adf8828")
 	)
 	(no_connect
 		(at 85.09 76.2)
 		(uuid "8bfa7691-41d5-45b7-ac5b-7eed2a57631f")
+	)
+	(no_connect
+		(at 58.42 119.38)
+		(uuid "99fce9a7-1fde-4f64-9482-5f08ac3c6dff")
 	)
 	(wire
 		(pts
@@ -3875,16 +3766,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 93.98 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b527e5-fa56-4c61-b264-7620527a7e18")
-	)
-	(wire
-		(pts
 			(xy 205.74 111.76) (xy 205.74 115.57)
 		)
 		(stroke
@@ -3932,6 +3813,16 @@
 			(type default)
 		)
 		(uuid "06fcd2fd-c48a-480d-8b7f-91b073836e45")
+	)
+	(wire
+		(pts
+			(xy 63.5 90.17) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0854d9a3-7460-4df2-968c-ec46fc7fdf6a")
 	)
 	(wire
 		(pts
@@ -4035,16 +3926,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 97.79) (xy 25.4 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "175eaf87-41fe-40ac-aba6-7b9d0d39dbb5")
-	)
-	(wire
-		(pts
 			(xy 54.61 162.56) (xy 54.61 171.45)
 		)
 		(stroke
@@ -4075,13 +3956,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 82.55) (xy 35.56 80.01)
+			(xy 44.45 90.17) (xy 44.45 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a275e2a-2385-47f5-be48-73f131288257")
+		(uuid "1ae80818-adf9-4c23-bb4f-f4bc7aefb183")
+	)
+	(wire
+		(pts
+			(xy 31.75 124.46) (xy 60.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c02cf5c-8308-497f-a06e-5ffd64b86542")
 	)
 	(wire
 		(pts
@@ -4092,6 +3983,16 @@
 			(type default)
 		)
 		(uuid "1c39ae0c-ff11-49ad-b7f8-1ce641cf0f5e")
+	)
+	(wire
+		(pts
+			(xy 29.21 76.2) (xy 44.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d456a12-cb08-4697-a2de-faa21826e975")
 	)
 	(wire
 		(pts
@@ -4195,16 +4096,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 107.95) (xy 35.56 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2814d96f-fee1-4d75-a499-05c8d957b503")
-	)
-	(wire
-		(pts
 			(xy 48.26 182.88) (xy 48.26 189.23)
 		)
 		(stroke
@@ -4255,16 +4146,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 95.25) (xy 86.36 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30122251-0c53-4a90-8636-f9256ab3ada7")
-	)
-	(wire
-		(pts
 			(xy 139.7 171.45) (xy 139.7 175.26)
 		)
 		(stroke
@@ -4292,16 +4173,6 @@
 			(type default)
 		)
 		(uuid "3555cec4-798e-46e3-a41e-af914c1fb03c")
-	)
-	(wire
-		(pts
-			(xy 86.36 107.95) (xy 60.96 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36908484-3e9e-42a8-8be1-20b697dd0bf2")
 	)
 	(wire
 		(pts
@@ -4435,16 +4306,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 66.04) (xy 25.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46fa8c17-0a8c-4631-a019-e97da2fa0cfb")
-	)
-	(wire
-		(pts
 			(xy 52.07 142.24) (xy 54.61 142.24)
 		)
 		(stroke
@@ -4482,6 +4343,16 @@
 			(type default)
 		)
 		(uuid "4c3e86e0-7b7f-4dae-b3b6-0c93b2ecec65")
+	)
+	(wire
+		(pts
+			(xy 31.75 124.46) (xy 31.75 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6bc0db-0092-41a5-ad11-f54f9eac9f77")
 	)
 	(wire
 		(pts
@@ -4615,6 +4486,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 66.04) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56603489-30f8-4fce-92bc-9573ed3a785a")
+	)
+	(wire
+		(pts
 			(xy 139.7 182.88) (xy 139.7 189.23)
 		)
 		(stroke
@@ -4622,16 +4503,6 @@
 			(type default)
 		)
 		(uuid "56c3be1e-25f5-49e6-8a36-cc3fdb314108")
-	)
-	(wire
-		(pts
-			(xy 44.45 93.98) (xy 44.45 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5732ef40-cdfc-44eb-97bd-096b07032c4e")
 	)
 	(wire
 		(pts
@@ -4655,7 +4526,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 76.2) (xy 27.94 76.2)
+			(xy 22.86 76.2) (xy 29.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4735,16 +4606,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 66.04) (xy 44.45 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60bfabe1-4245-4010-85d8-0b1164930cb2")
-	)
-	(wire
-		(pts
 			(xy 185.42 22.86) (xy 189.23 22.86)
 		)
 		(stroke
@@ -4762,6 +4623,16 @@
 			(type default)
 		)
 		(uuid "6331da85-7b9b-4cba-9365-3f435750cfeb")
+	)
+	(wire
+		(pts
+			(xy 44.45 90.17) (xy 60.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bcce08-0a70-4503-a1e6-5ab4643255d8")
 	)
 	(wire
 		(pts
@@ -4845,13 +4716,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 85.09 78.74)
+			(xy 63.5 90.17) (xy 87.63 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69ae5b43-4c9d-44a1-ac65-1a6ed20f628e")
+		(uuid "6a34548e-c2fa-41cf-81b9-83d5c07240c4")
 	)
 	(wire
 		(pts
@@ -4905,6 +4776,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 66.04) (xy 44.45 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bc364d-c185-4b0a-9440-4ab16d0f17c4")
+	)
+	(wire
+		(pts
 			(xy 54.61 189.23) (xy 58.42 189.23)
 		)
 		(stroke
@@ -4952,16 +4833,6 @@
 			(type default)
 		)
 		(uuid "75dc25e3-b297-41fe-96ac-a3f654be8ec7")
-	)
-	(wire
-		(pts
-			(xy 86.36 85.09) (xy 86.36 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76c351d9-760f-4618-b892-34f9aedeefd9")
 	)
 	(wire
 		(pts
@@ -5275,6 +5146,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 76.2) (xy 29.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98fd916e-6994-4ed0-926e-6a971702d8fb")
+	)
+	(wire
+		(pts
 			(xy 218.44 45.72) (xy 218.44 49.53)
 		)
 		(stroke
@@ -5395,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 110.49) (xy 60.96 107.95)
+			(xy 60.96 127) (xy 60.96 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5465,16 +5346,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 107.95) (xy 44.45 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72eda6f-9218-4a90-8511-3245c268daeb")
-	)
-	(wire
-		(pts
 			(xy 119.38 170.18) (xy 119.38 175.26)
 		)
 		(stroke
@@ -5495,6 +5366,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 90.17) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a91443-f7c4-4d88-85fa-652204c8a743")
+	)
+	(wire
+		(pts
 			(xy 140.97 34.29) (xy 140.97 30.48)
 		)
 		(stroke
@@ -5502,6 +5383,16 @@
 			(type default)
 		)
 		(uuid "a916b2b0-28e7-4377-84cc-a6e030609448")
+	)
+	(wire
+		(pts
+			(xy 60.96 119.38) (xy 60.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4cbf0f-9d29-4505-bcf1-78f3ea58c978")
 	)
 	(wire
 		(pts
@@ -5572,16 +5463,6 @@
 			(type default)
 		)
 		(uuid "b1172e37-bb12-42cd-988c-bb6194833a3a")
-	)
-	(wire
-		(pts
-			(xy 27.94 76.2) (xy 44.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a1e178-4fad-4673-a330-be9e335e3b11")
 	)
 	(wire
 		(pts
@@ -5682,16 +5563,6 @@
 			(type default)
 		)
 		(uuid "bda4cf13-33bf-4988-9fe3-7f2f64ed2326")
-	)
-	(wire
-		(pts
-			(xy 35.56 80.01) (xy 27.94 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be35e15a-2872-45c2-834c-49fee9050f40")
 	)
 	(wire
 		(pts
@@ -5885,6 +5756,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 78.74) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd11c7aa-7e6f-4d65-b99f-46372764c867")
+	)
+	(wire
+		(pts
 			(xy 109.22 168.91) (xy 109.22 175.26)
 		)
 		(stroke
@@ -5965,16 +5846,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 76.2) (xy 27.94 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c3afee-7395-4bdd-8260-8dfc1850a180")
-	)
-	(wire
-		(pts
 			(xy 179.07 22.86) (xy 185.42 22.86)
 		)
 		(stroke
@@ -5985,16 +5856,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 107.95) (xy 44.45 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7bd0c08-b06d-4c05-827b-52f57fc97951")
-	)
-	(wire
-		(pts
 			(xy 147.32 133.35) (xy 156.21 133.35)
 		)
 		(stroke
@@ -6002,16 +5863,6 @@
 			(type default)
 		)
 		(uuid "d84c451d-d949-410f-a56b-dd70c7ed2cbc")
-	)
-	(wire
-		(pts
-			(xy 44.45 78.74) (xy 44.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d883f9cc-4b4b-42aa-9404-0fde2520f14d")
 	)
 	(wire
 		(pts
@@ -6295,6 +6146,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 90.17) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3f1c5d-e5c6-4130-a7a3-d0133191ba5a")
+	)
+	(wire
+		(pts
 			(xy 128.27 147.32) (xy 130.81 147.32)
 		)
 		(stroke
@@ -6375,6 +6236,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9926fb0-4740-46b7-bad3-9183415baaa2")
+	)
+	(wire
+		(pts
 			(xy 149.86 170.18) (xy 149.86 175.26)
 		)
 		(stroke
@@ -6382,16 +6253,6 @@
 			(type default)
 		)
 		(uuid "f9b88764-a161-4ba5-b412-c2dd4d25db4c")
-	)
-	(wire
-		(pts
-			(xy 35.56 97.79) (xy 35.56 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac6871c-d5a8-46fc-8dbf-ad576d43e22c")
 	)
 	(wire
 		(pts
@@ -6405,7 +6266,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 66.04) (xy 25.4 66.04)
+			(xy 22.86 66.04) (xy 31.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7540,6 +7401,137 @@
 		)
 	)
 	(symbol
+		(lib_id "ESDS312DBVR:ESDS312DBVR")
+		(at 63.5 119.38 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cceff4c-b713-405d-a505-45d851b047e0")
+		(property "Reference" "D5"
+			(at 54.61 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDS312DBVR"
+			(at 54.61 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:ESDS312DBVR"
+			(at -31.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/esds312"
+			(at -131.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at -331.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESDS312DBVR"
+			(at -431.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS312DBVR?qs=byeeYqUIh0PGNqB7QuJpTA%3D%3D"
+			(at -531.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at -631.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDS312DBVR"
+			(at -731.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b0361b6-45bd-42d5-9e7d-fb6635fc9456")
+		)
+		(pin "4"
+			(uuid "cecf7b09-0faf-4cc3-a516-4873865ee425")
+		)
+		(pin "3"
+			(uuid "6f7bfe50-b95e-42db-bed4-d0eb6d651a3f")
+		)
+		(pin "2"
+			(uuid "3acee700-784b-4dfa-b2cb-1e2c93bef63b")
+		)
+		(pin "5"
+			(uuid "5bcdcfb5-59c2-49a0-964f-602a50ff141f")
+		)
+		(instances
+			(project ""
+				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 38.1 0)
 		(unit 1)
@@ -7708,176 +7700,6 @@
 			(project "USB_PD_Trigger"
 				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESD321DPYR:ESD321DPYR")
-		(at 44.45 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f1d131d-f2a8-4949-88c8-72237be8cf02")
-		(property "Reference" "D6"
-			(at 39.37 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD321DPYR"
-			(at 41.91 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:ESD321DPYR"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "296-51108-1-ND"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESD321DPYR/Texas+Instruments/view-part/?ref=snap"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "0.9pF 3.6V ±30kV ESD protection diode with 6.8V 16A TLP clamping for USB 2.0"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "X1SON-2 Texas Instruments"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESD321DPYR/Texas+Instruments/view-part/?ref=eda"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ESD321DPYR"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a1e19cd-3baf-4c8f-924b-4574011bafa9")
-		)
-		(pin "2"
-			(uuid "bc4004b9-bcf3-4749-b24d-c7a300b4e7a5")
-		)
-		(instances
-			(project ""
-				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8433,176 +8255,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ESD321DPYR:ESD321DPYR")
-		(at 86.36 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6241b8e5-7473-4e29-b77c-01a94108ad7f")
-		(property "Reference" "D7"
-			(at 86.868 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD321DPYR"
-			(at 86.868 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:ESD321DPYR"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "296-51108-1-ND"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESD321DPYR/Texas+Instruments/view-part/?ref=snap"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "0.9pF 3.6V ±30kV ESD protection diode with 6.8V 16A TLP clamping for USB 2.0"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "X1SON-2 Texas Instruments"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESD321DPYR/Texas+Instruments/view-part/?ref=eda"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ESD321DPYR"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f97d8fe8-4326-4c4d-a44f-15477c7d7709")
-		)
-		(pin "2"
-			(uuid "f4e3bc91-7b3a-4503-ad51-9d6a769cd602")
-		)
-		(instances
-			(project "USB_PD_Trigger"
-				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 254 85.09 0)
 		(unit 1)
@@ -9145,6 +8797,130 @@
 		)
 	)
 	(symbol
+		(lib_id "DT1452-02SO-7:DT1452-02SO-7")
+		(at 31.75 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83368df4-1fa9-4c95-8cc9-056f084b2a8f")
+		(property "Reference" "D4"
+			(at 35.306 104.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DT1452-02SO-7"
+			(at 35.306 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:DT1452-02SO-7"
+			(at -63.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DT1452-02SO.pdf"
+			(at -163.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc DT1452-02SO-7, Quint-Element Uni-Directional TVS Diode Array, 0.3W, 3-Pin SOT-23"
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at -363.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DT1452-02SO-7"
+			(at -463.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DT1452-02SO-7?qs=M%2FOdCRO8QQ1ppg038%2FKGgQ%3D%3D"
+			(at -563.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at -663.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DT1452-02SO-7"
+			(at -763.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46ea79d7-3ce5-4243-ad30-1e37f54e5b8e")
+		)
+		(pin "3"
+			(uuid "70d8985d-2fa0-4556-aafa-3b92b72c3701")
+		)
+		(pin "2"
+			(uuid "073a1330-6fea-4c3f-afc3-88646ba896b0")
+		)
+		(instances
+			(project ""
+				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 205.74 119.38 0)
 		(unit 1)
@@ -9227,127 +9003,6 @@
 			(project "USB_PD_Trigger"
 				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESD441DPLR:ESD441DPLR")
-		(at 35.56 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c7af09e-d4f5-4a7f-8e75-8a778df84297")
-		(property "Reference" "D5"
-			(at 29.21 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD441DPLR"
-			(at 31.75 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:ESD441DPLR"
-			(at -58.09 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf?ts=1730589139389&ref_url=https%253A%252F%252Fapp.ultralibrarian.com%252F"
-			(at -158.09 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressors / TVS Diodes 1-pF, 5.5-V, 30-KV ESD protection device in 0201 package 2-X2SON -40 to 125"
-			(at 35.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.32"
-			(at -358.09 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-ESD441DPLR"
-			(at -458.09 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
-			(at -558.09 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at -658.09 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD441DPLR"
-			(at -758.09 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "958e29fe-deb3-40ee-80d2-863a8f384eb3")
-		)
-		(pin "1"
-			(uuid "29be2f28-0203-47a4-a9c8-f2c490a134a6")
-		)
-		(instances
-			(project "USB_PD_Trigger"
-				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10807,7 +10462,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 110.49 0)
+		(at 60.96 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10816,7 +10471,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8732deb-40a2-4983-b5d6-dd36022b8a72")
 		(property "Reference" "#PWR05"
-			(at 60.96 116.84 0)
+			(at 60.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10825,7 +10480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 115.57 0)
+			(at 60.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +10488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 110.49 0)
+			(at 60.96 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +10497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 110.49 0)
+			(at 60.96 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +10506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 110.49 0)
+			(at 60.96 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11373,127 +11028,6 @@
 			(project "USB_PD_Trigger"
 				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESD441DPLR:ESD441DPLR")
-		(at 25.4 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e24882c8-dbd1-4571-bc36-ca5b51290c65")
-		(property "Reference" "D4"
-			(at 19.05 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD441DPLR"
-			(at 21.59 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:ESD441DPLR"
-			(at -68.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf?ts=1730589139389&ref_url=https%253A%252F%252Fapp.ultralibrarian.com%252F"
-			(at -168.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressors / TVS Diodes 1-pF, 5.5-V, 30-KV ESD protection device in 0201 package 2-X2SON -40 to 125"
-			(at 25.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.32"
-			(at -368.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-ESD441DPLR"
-			(at -468.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
-			(at -568.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at -668.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD441DPLR"
-			(at -768.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8596a44-efac-4efb-b191-4a85ee36be45")
-		)
-		(pin "1"
-			(uuid "346377cc-c478-4af2-bbce-a9d274b9a2a2")
-		)
-		(instances
-			(project ""
-				(path "/f2442179-ee18-40f6-8fc0-9799b38de8e4"
-					(reference "D4")
 					(unit 1)
 				)
 			)

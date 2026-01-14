@@ -6,7 +6,7 @@
 	(descr "APX809-31SAG-7-1")
 	(tags "TVS Diode (Uni-directional)")
 	(property "Reference" "D**"
-		(at 0 0 0)
+		(at 3.4 0 0)
 		(layer "F.SilkS")
 		(uuid "5c15217d-ba2c-433c-a587-e7d4c62d8248")
 		(effects
@@ -53,16 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -1.6 -1.535)
-		(end -0.5 -1.535)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1b8112b4-a603-4222-a36c-52aa723c48b6")
-	)
 	(fp_line
 		(start -0.15 -1.45)
 		(end 0.15 -1.45)

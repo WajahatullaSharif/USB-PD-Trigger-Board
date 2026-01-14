@@ -6,7 +6,7 @@
 	(descr "ESD441DPLR-8")
 	(tags "TVS Diode (Uni-directional)")
 	(property "Reference" "D**"
-		(at 0 0 0)
+		(at 2.3 0 180)
 		(layer "F.SilkS")
 		(uuid "263081a7-3618-4d1c-b21a-8bad1eda45a1")
 		(effects
@@ -96,40 +96,40 @@
 		(uuid "2529ae4a-723a-48b2-a821-4be00eccc8e5")
 	)
 	(fp_line
-		(start -1.36 -1.15)
-		(end 1.36 -1.15)
+		(start -0.55 -0.4)
+		(end 0.6 -0.4)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "9f6c5957-9ffc-4ea4-95ea-1868583575aa")
 	)
 	(fp_line
-		(start -1.36 1.15)
-		(end -1.36 -1.15)
+		(start -0.55 0.4)
+		(end -0.55 -0.4)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "a88cf3d4-1356-4471-a72b-28e6c0a68f02")
 	)
 	(fp_line
-		(start 1.36 -1.15)
-		(end 1.36 1.15)
+		(start 0.6 -0.4)
+		(end 0.6 0.4)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "a508ccea-86ee-4921-80c0-1eda1d076692")
 	)
 	(fp_line
-		(start 1.36 1.15)
-		(end -1.36 1.15)
+		(start 0.6 0.4)
+		(end -0.55 0.4)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -176,7 +176,7 @@
 		(uuid "4460ad39-4841-4ca9-9684-842303ac77fb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 1.95 0)
 		(layer "F.Fab")
 		(uuid "f7d8e382-72e8-486d-8a6d-f62d236e84ae")
 		(effects

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6096,
-          "height": 1.8034,
-          "width": 0.9906
+          "drill": 0.0,
+          "height": 1.91,
+          "width": 0.31
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -64,6 +64,10 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|127500000|101650000|51979725-ac0d-4fa3-a5d0-f82b9d8a1a71|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
         [
           "lib_footprint_mismatch|128268249|99935001|d85f2f11-85a6-421c-a40e-49c1ab4e43f0|00000000-0000-0000-0000-000000000000",
           ""
@@ -684,7 +688,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../../Downloads/gerbers_pdf/",
+      "plot": "../../../../../Downloads/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -909,7 +913,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../../../Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
