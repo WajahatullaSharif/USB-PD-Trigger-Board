@@ -7411,21 +7411,21 @@
 		(dnp no)
 		(uuid "2cceff4c-b713-405d-a505-45d851b047e0")
 		(property "Reference" "D5"
-			(at 54.61 104.1399 90)
+			(at 66.802 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ESDS312DBVR"
-			(at 54.61 106.6799 90)
+			(at 66.802 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:ESDS312DBVR"
